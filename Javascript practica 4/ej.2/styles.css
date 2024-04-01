@@ -1,0 +1,20 @@
+body{background-color:rgb(199, 251, 255);font-family: 'Syne Mono', monospace;;
+padding:40px ; font-size: 15px;
+line-height: 17px ;
+}
+
+b{color: rgb(2, 161, 182);
+} 
+body{
+    padding:30px;
+    display:flex;
+flex-wrap: wrap;};
+
+.clases{
+    background-color:red;
+}
+div.alumno{
+    flex-wrap: wrap;
+    min-width: 100%;
+    margin:70px 0 70px 50px;
+}

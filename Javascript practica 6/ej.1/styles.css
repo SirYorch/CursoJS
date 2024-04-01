@@ -1,0 +1,50 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{background-color:rgb(221, 250, 255);
+font-family: 'Syne Mono', monospace;
+font-size: 20px;
+padding:100px;
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+
+b{color: rgb(255, 75, 75);
+}
+.contenedor{
+    display: flex;
+    height:100%;
+    width:100%;
+    flex-wrap: wrap;
+}
+
+.tarjeta{
+    text-align:center;
+    color:black;
+    width: 150px;
+    padding:5px;
+    margin:10px;
+    background-color:azure;
+    border:2px solid black;
+    transition: width .5s;
+}
+
+img{
+    height:140px;
+}
+
+.seleccionada{
+    width:160px;
+}
+input[type=submit]{
+    background-color:#ffc7db;
+    font-size:22px;
+    padding:10px 20px;
+    display:flexbox;
+    margin-top:30px;
+    letter-spacing: 5px;
+}
